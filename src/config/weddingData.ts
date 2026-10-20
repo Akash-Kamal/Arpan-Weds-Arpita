@@ -17,6 +17,8 @@ export const WEDDING_COUPLE = {
   },
   bride: {
     name: "Arpita Simon",
+    father: "Mr. Anand Simon",
+    mother: "Mrs. Sujeeta Simon",
     initial: "A",
   },
   headline: "ARPAN KAMAL WEDS ARPITA SIMON",
@@ -76,6 +78,8 @@ export const FAMILY_DATA: { groom: FamilySide; bride: FamilySide } = {
   bride: {
     side: "Bride",
     personName: "Arpita Simon",
+    fatherName: "Mr. Anand Simon",
+    motherName: "Mrs. Sujeeta Simon",
     siblings: [],
   },
 };
@@ -144,6 +148,7 @@ export const INVITATION_PAGES = [
     blessingsLabel: "With the Blessings of Our Families",
     blessingMembers: [
       "Mr. Kamal Masih & Mrs. Sonia Kamal",
+      "Mr. Anand Simon & Mrs. Sujeeta Simon",
       "Mr. Akash Kamal & Miss Akanksha Kamal",
       "Late Mr. & Mrs. Prabhu Das Masih",
       "Late Mr. & Mrs. David",
@@ -174,6 +179,7 @@ export const INVITATION_PAGES = [
     blessingsLabel: "With Love & Blessings From Both Families",
     blessingMembers: [
       "Mr. Kamal Masih & Mrs. Sonia Kamal",
+      "Mr. Anand Simon & Mrs. Sujeeta Simon",
       "Mr. Akash Kamal & Miss Akanksha Kamal",
       "Late Mr. & Mrs. Prabhu Das Masih",
       "Late Mr. & Mrs. David",
@@ -204,6 +210,7 @@ export const INVITATION_PAGES = [
     blessingsLabel: "With Love & Blessings From Both Families",
     blessingMembers: [
       "Mr. Kamal Masih & Mrs. Sonia Kamal",
+      "Mr. Anand Simon & Mrs. Sujeeta Simon",
       "Mr. Akash Kamal & Miss Akanksha Kamal",
       "Late Mr. & Mrs. Prabhu Das Masih",
       "Late Mr. & Mrs. David",
@@ -234,6 +241,7 @@ export const INVITATION_PAGES = [
     blessingsLabel: "With Best Wishes From",
     blessingMembers: [
       "Mr. Kamal Masih & Mrs. Sonia Kamal",
+      "Mr. Anand Simon & Mrs. Sujeeta Simon",
       "Mr. Akash Kamal & Miss Akanksha Kamal",
       "Late Mr. & Mrs. Prabhu Das Masih",
       "Late Mr. & Mrs. David",
