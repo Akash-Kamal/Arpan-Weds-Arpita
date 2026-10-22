@@ -81,13 +81,6 @@ export default function OurStory() {
             );
           })}
         </div>
-
-        {/* Narrative Note */}
-        <div className="story-footer-note">
-          <p className="note-text">
-            Personal milestone chapters can be customized directly in <code className="code-badge">src/config/weddingData.ts</code>.
-          </p>
-        </div>
       </div>
     </section>
   );

@@ -30,12 +30,11 @@ export default function VenueDirectory() {
           ))}
         </div>
 
-        {/* Configuration & Verification Note */}
+        {/* Guest Assistance Note */}
         <div className="venue-config-notice">
           <Info size={18} className="info-icon" />
           <p className="notice-text">
-            <strong>Guest Guidance &amp; Verification Note:</strong> Venue addresses and Google Maps destination links are configured in{" "}
-            <code>src/config/weddingData.ts</code>. Exact gate numbers, parking landmarks, or verified GPS pin coordinates can be updated prior to the wedding date without affecting layout integrity.
+            <strong>Guest Travel Assistance:</strong> Click “Get Directions” on any venue card to open live navigation in Google Maps. Dedicated parking and arrival assistance will be available at each location.
           </p>
         </div>
       </div>
