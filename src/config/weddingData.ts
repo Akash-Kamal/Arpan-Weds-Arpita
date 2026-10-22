@@ -170,7 +170,7 @@ export const INVITATION_PAGES = [
       bride: "Arpita Simon",
     },
     dateDisplay: "MONDAY, 9 NOVEMBER 2026",
-    timeDisplay: "1:00 PM",
+    timeDisplay: "2:30 PM",
     venueDisplay: "A-1702, Second Floor, Green Fields Colony, Faridabad, Haryana",
     mapUrl: "https://goo.gl/maps/uHTUEqBD7KXkgL817?g_st=ac",
     qrCodeImage: "/images/green_fields_qr.png",
@@ -256,9 +256,9 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
     dayOfWeek: "Monday",
     date: "2026-11-09",
     displayDate: "Monday, 9 November 2026",
-    time: "1:00 PM",
-    startDateTime: "2026-11-09T13:00:00+05:30",
-    endDateTime: "2026-11-09T16:00:00+05:30",
+    time: "2:30 PM",
+    startDateTime: "2026-11-09T14:30:00+05:30",
+    endDateTime: "2026-11-09T17:30:00+05:30",
     venueName: "Green Fields Colony",
     venueAddress: "A-1702, Second Floor, Green Fields Colony",
     city: "Faridabad",
@@ -282,7 +282,7 @@ export const WEDDING_EVENTS: WeddingEvent[] = [
     mapQuery: "A-1702, Second Floor, Green Fields Colony, Faridabad, Haryana, India",
     calendarSummary: "Arpan & Arpita — Haldi Ceremony",
     calendarDescription:
-      "Haldi Ceremony for Arpan Kamal & Arpita Simon\\nVenue: A-1702, Second Floor, Green Fields Colony, Faridabad, Haryana, India\\nTime: 1:00 PM IST",
+      "Haldi Ceremony for Arpan Kamal & Arpita Simon\\nVenue: A-1702, Second Floor, Green Fields Colony, Faridabad, Haryana, India\\nTime: 2:30 PM IST",
   },
   {
     id: "event-mehendi",
@@ -474,7 +474,7 @@ export const VENUES: VenueInfo[] = [
   {
     id: "venue-green-fields",
     name: "Green Fields Colony Residence",
-    eventsHeld: ["Haldi Ceremony (9 Nov, 1:00 PM)", "Mehendi Ceremony (9 Nov, 7:00 PM)"],
+    eventsHeld: ["Haldi Ceremony (9 Nov, 2:30 PM)", "Mehendi Ceremony (9 Nov, 7:00 PM)"],
     fullAddress: "A-1702, Second Floor, Green Fields Colony",
     cityState: "Faridabad, Haryana, India",
     landmarkNotice: "Residential address — visitor parking assistance provided at gate entrance.",
@@ -594,7 +594,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: "How do the events span across Faridabad and Lucknow?",
     answer:
-      "Our celebrations begin with the pre-wedding Haldi (1:00 PM) and Mehendi (7:00 PM) on Monday, 9 November 2026 in Green Fields Colony, Faridabad. The solemn Wedding Ceremony and Dinner take place on Wednesday, 11 November 2026 in Lucknow. Finally, the Grand Wedding Reception is hosted at Devansh Greens, 45 Mile Stone, Delhi-Mathura Road, Ballabgarh, Faridabad on Saturday, 14 November 2026 at 7:00 PM.",
+      "Our celebrations begin with the pre-wedding Haldi (2:30 PM) and Mehendi (7:00 PM) on Monday, 9 November 2026 in Green Fields Colony, Faridabad. The solemn Wedding Ceremony and Dinner take place on Wednesday, 11 November 2026 in Lucknow. Finally, the Grand Wedding Reception is hosted at Devansh Greens, 45 Mile Stone, Delhi-Mathura Road, Ballabgarh, Faridabad on Saturday, 14 November 2026 at 7:00 PM.",
     category: "Travel",
     isConfirmed: true,
   },

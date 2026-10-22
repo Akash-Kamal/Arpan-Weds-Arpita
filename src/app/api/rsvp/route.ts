@@ -18,7 +18,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const DATA_FILE = path.join(DATA_DIR, "rsvps.json");
 
 const EVENT_NAME_MAP: Record<string, string> = {
-  "event-haldi": "Haldi Ceremony (9 Nov, 1:00 PM)",
+  "event-haldi": "Haldi Ceremony (9 Nov, 2:30 PM)",
   "event-mehendi": "Mehendi Ceremony (9 Nov, 7:00 PM)",
   "event-church-wedding": "Holy Matrimony / Wedding (11 Nov, 04:30 PM)",
   "event-cake-cutting": "Wedding Cake Cutting (11 Nov, 6:30 PM)",
