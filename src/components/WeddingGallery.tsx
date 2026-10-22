@@ -3,7 +3,6 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 import ChristianCross from "./ChristianCross";
-import { GALLERY_ITEMS } from "@/config/weddingData";
 import {
   UploadCloud,
   Camera,
@@ -12,7 +11,6 @@ import {
   Clock,
   X,
   Maximize2,
-  Eye,
   Trash2,
   AlertCircle,
   Loader2,
@@ -45,7 +43,7 @@ interface GalleryPhoto {
 const STORAGE_TOKENS_KEY = "arpan_arpita_photo_tokens";
 
 export default function WeddingGallery() {
-  const [activeTab, setActiveTab] = useState<"upload" | "schedule" | "preview">("upload");
+  const [activeTab, setActiveTab] = useState<"upload" | "schedule">("upload");
   const [selectedFunction, setSelectedFunction] = useState("Holy Matrimony & Dinner");
   const [guestName, setGuestName] = useState("");
   const [caption, setCaption] = useState("");
@@ -502,7 +500,7 @@ export default function WeddingGallery() {
             </p>
           </div>
 
-          {/* Mobile Switcher Tabs */}
+          {/* Switcher Tabs */}
           <div className="gallery-mode-tabs">
             <button
               type="button"
@@ -519,14 +517,6 @@ export default function WeddingGallery() {
             >
               <Calendar size={15} />
               <span>Photo Schedule</span>
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveTab("preview")}
-              className={`mode-tab-btn ${activeTab === "preview" ? "active" : ""}`}
-            >
-              <Eye size={15} />
-              <span>Sneak Peek</span>
             </button>
           </div>
         </div>
@@ -965,47 +955,6 @@ export default function WeddingGallery() {
             </div>
           </div>
         )}
-
-        {/* TAB 3: CURATED SNEAK PEEK PREVIEW */}
-        {activeTab === "preview" && (
-          <div className="tab-content-fade">
-            <div className="preview-curated-intro">
-              <p className="intro-text font-serif">
-                “A curated aesthetic glimpse into cathedral stone arches, sacred scripture, and joyous wedding preparations.”
-              </p>
-            </div>
-
-            <div className="gallery-grid">
-              {GALLERY_ITEMS.map((item) => (
-                <div
-                  key={item.id}
-                  className="gallery-card"
-                  onClick={() => openLightbox(item.src, item.title, item.caption)}
-                >
-                  <div className="gallery-thumbnail-wrapper">
-                    <Image
-                      src={item.src}
-                      alt={item.title}
-                      fill
-                      sizes="(max-width: 640px) 100vw, 50vw"
-                      className="gallery-img"
-                    />
-                    <div className="gallery-hover-overlay">
-                      <div className="overlay-badge">
-                        <Maximize2 size={16} />
-                        <span>View</span>
-                      </div>
-                      <div className="overlay-text">
-                        <h4 className="overlay-title font-serif">{item.title}</h4>
-                        <p className="overlay-caption">{item.caption}</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
       </div>
 
       {/* Accessible Lightbox Modal */}
@@ -1108,10 +1057,11 @@ export default function WeddingGallery() {
         /* Mode Tabs */
         .gallery-mode-tabs {
           display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          gap: 0.45rem;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 0.5rem;
+          max-width: 440px;
+          margin: 0 auto 1.5rem auto;
           width: 100%;
-          margin-bottom: 1.5rem;
         }
 
         .mode-tab-btn {
